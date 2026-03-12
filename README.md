@@ -7,8 +7,33 @@
 // To see all of Zed's default settings without changing your
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
 {
   // AI
+  "lsp": {
+    "vtsls": {
+      "settings": {
+        "typescript": {
+          "updateImportsOnFileMove": {
+            "enabled": "never",
+          },
+        },
+        "javascript": {
+          "updateImportsOnFileMove": {
+            "enabled": "never",
+          },
+        },
+      },
+      "enable_lsp_tasks": true,
+    },
+  },
   "agent": {
     "default_model": {
       "provider": "copilot_chat",
@@ -29,7 +54,7 @@
     "show_sign_in": false,
   },
   "tab_bar": {
-    "show": false,
+    "show": true,
   },
   "toolbar": {
     "quick_actions": false,
@@ -47,17 +72,12 @@
       "show": "never",
     },
   },
-  "scrollbar": {
-    "show": "never",
-  },
 
   // Theming
-  "icon_theme": "Symbols Icon Theme",
+  "icon_theme": "Zed (Default)",
   "theme": {
     "mode": "dark",
     "light": "Dracula Pro (Alucard)",
-    "dark": "Vesper",
+    "dark": "Rosé Pine",
   },
 }
-
-```
