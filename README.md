@@ -7,16 +7,17 @@
 // To see all of Zed's default settings without changing your
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
-// Zed settings
-//
-// For information on how to configure Zed, see the Zed
-// documentation: https://zed.dev/docs/configuring-zed
-//
-// To see all of Zed's default settings without changing your
-// custom settings, run `zed: open default settings` from the
-// command palette (cmd-shift-p / ctrl-shift-p)
 {
   // AI
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "git_panel": {
+    "dock": "left"
+  },
   "lsp": {
     "vtsls": {
       "settings": {
@@ -35,6 +36,7 @@
     },
   },
   "agent": {
+    "dock": "right",
     "default_model": {
       "provider": "copilot_chat",
       "model": "gpt-4o",
@@ -74,10 +76,15 @@
   },
 
   // Theming
-  "icon_theme": "Zed (Default)",
+  "icon_theme": {
+    "mode": "light",
+    "light": "Zed (Default)",
+    "dark": "Zed (Default)"
+  },
   "theme": {
-    "mode": "dark",
-    "light": "Dracula Pro (Alucard)",
-    "dark": "Rosé Pine",
+    "mode": "light",
+    "light": "Everforest Light Soft (material)",
+    "dark": "Everforest Dark Hard (material)",
   },
 }
+```
