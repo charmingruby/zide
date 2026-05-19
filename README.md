@@ -45,7 +45,7 @@
   },
 
   // UI
-  "ui_font_size": 16,
+  "ui_font_size": 15,
   "buffer_font_size": 14,
   "buffer_font_family": "Monocraft",
   "ui_font_family": "Monocraft",
@@ -85,8 +85,7 @@
   "theme": {
     "mode": "dark",
     "light": "Everforest Light Hard (material)",
-    "dark": "GitHub Dark Tritanopia",
+    "dark": "Vesper",
   },
 }
-
 ```
