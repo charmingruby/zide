@@ -9,14 +9,15 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   // AI
+  "cli_default_open_behavior": "existing_window",
   "outline_panel": {
-    "dock": "left"
+    "dock": "left",
   },
   "collaboration_panel": {
-    "dock": "left"
+    "dock": "left",
   },
   "git_panel": {
-    "dock": "left"
+    "dock": "left",
   },
   "lsp": {
     "vtsls": {
@@ -46,8 +47,8 @@
   // UI
   "ui_font_size": 16,
   "buffer_font_size": 14,
-  "buffer_font_family": "Fira Code",
-  "ui_font_family": "Fira Code",
+  "buffer_font_family": "Monocraft",
+  "ui_font_family": "Monocraft",
   "title_bar": {
     "show_onboarding_banner": false,
     "show_project_items": false,
@@ -79,12 +80,13 @@
   "icon_theme": {
     "mode": "light",
     "light": "Zed (Default)",
-    "dark": "Zed (Default)"
+    "dark": "Zed (Default)",
   },
   "theme": {
-    "mode": "light",
-    "light": "Everforest Light Soft (material)",
-    "dark": "Everforest Dark Hard (material)",
+    "mode": "dark",
+    "light": "Everforest Light Hard (material)",
+    "dark": "GitHub Dark Tritanopia",
   },
 }
+
 ```
