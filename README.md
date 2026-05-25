@@ -47,8 +47,8 @@
   // UI
   "ui_font_size": 15,
   "buffer_font_size": 14,
-  "buffer_font_family": "Monocraft",
-  "ui_font_family": "Monocraft",
+  "buffer_font_family": "JetBrains Mono",
+  "ui_font_family": "JetBrains Mono",
   "title_bar": {
     "show_onboarding_banner": false,
     "show_project_items": false,
@@ -85,7 +85,7 @@
   "theme": {
     "mode": "dark",
     "light": "Everforest Light Hard (material)",
-    "dark": "Vesper",
+    "dark": "Melange Dark",
   },
 }
 ```
